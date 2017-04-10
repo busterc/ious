@@ -1,0 +1,48 @@
+{
+  "name": "ious",
+  "version": "1.0.0",
+  "description": "use express middleware on socket.io namespaces",
+  "homepage": "",
+  "author": {
+    "name": "Buster Collings",
+    "email": "busterc@gmail.com",
+    "url": "https://about.me/buster"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "socket",
+    "io",
+    "socket-io",
+    "socket.io",
+    "middleware",
+    "express"
+  ],
+  "devDependencies": {
+    "coveralls": "^2.12.0",
+    "nsp": "^2.6.3",
+    "eslint": "^3.18.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^19.0.2",
+    "jest-cli": "^19.0.1"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix",
+    "test": "jest --coverage"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "repository": "busterc/ious",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "license": "ISC"
+}
