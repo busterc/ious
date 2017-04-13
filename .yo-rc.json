@@ -1,9 +1,0 @@
-{
-  "generator-node": {
-    "promptValues": {
-      "authorName": "Buster Collings",
-      "authorEmail": "busterc@gmail.com",
-      "authorUrl": "https://about.me/buster"
-    }
-  }
-}
